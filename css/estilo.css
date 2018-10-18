@@ -1,0 +1,64 @@
+body{
+	background: gray;
+}
+form{
+	width: 50%;
+	margin: 0 auto;
+}
+fieldset{
+	border: 1px solid #BB6500;
+	border-radius: 10px;
+}
+legend{
+	font-size: 20px;
+	color: #FFF;
+}
+label{
+	color: #000;
+	cursor: pointer;
+	font-size: 18px;
+}
+label:hover{
+	color: #FFF;
+	cursor: pointer;
+	font-size: 18px; 
+}
+input[type="text"]{
+	background: #A6CEFF;
+	color: #EF6028;
+	font-size: 18px;
+	width: 250px;
+	height: 30px
+}
+input[type="text"]:focus{
+	background: #D9F4F3;
+	color: #000;
+	font-size: 18px;
+}
+textarea{
+	background: #A6CEFF;
+	color: #EF6028;
+	font-size: 14px;
+	border-radius: 5px;
+}
+textarea:focus{
+	background: #D9F4F3;
+	color: #000;
+	border-radius: 5px;
+}
+button, input[type="reset"]{
+	background: #0171BB;
+	border-radius: 5px;
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px 15px;
+}
+button:hover, input[type="reset"]:hover{
+	background: #52B9FE;
+	color: #000;
+	cursor: pointer;
+	padding: 5px 15px;
+}
+.obligatorio{
+	color:red;
+}
